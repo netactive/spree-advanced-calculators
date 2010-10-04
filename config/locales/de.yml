@@ -1,0 +1,44 @@
+--- 
+de:
+  actions:
+    new: Neu
+    create: Erstellen
+    create_another: Weitere erstellen
+    update: Aktualisieren
+  activerecord:
+    attributes:
+      bucket_rate:
+        floor: Untergrenze
+        ceiling: Obergrenze
+        rate: Gebühr
+        unit: Einheit
+    models:
+      bucket_rate:
+        one: Eins
+        other: Andere
+    errors:
+      messages:
+        higher_or_equal: Gleich oder mehr
+  calculator_names:
+    weight_bucket: gewichtbasierend
+    quantity_bucket: anzahlbasierend
+    price_bucket: preisbasierend
+  bucket_rate: Staffelgebühr
+  new_bucket_rate: Neue Staffelgebühr
+  edit_bucket_rate: Staffelgebühr bearbeiten
+  configure_bucket_rates: Staffelgebühren konfigurieren
+  configure_new_bucket_rate: Neue Staffelgebühr konfigurieren
+  bucket_rates: Staffelgebühren
+  bucket_rates_description: Staffelgebührbeschreibungen
+  default_amount: Standardbetrag
+  default_weight: Standardgewicht
+  bucket_list_information: "
+     In order to use the Bucket Rate calculator, you need to create intervals without gaps between them. 
+     <br />When the order total does not fall within an interval, the default rate will be used.
+     Order amounts larger than the largest ceiling will use the last interval rate.
+     <br />NOTE: The FLOOR value is inclusive and the CEILING value is exclusive.
+    "
+  click_here: Hier klicken
+  calculator_settings: Berechnungseinstellungen
+  calculator_text: Rechner
+  weight_unit: kg
